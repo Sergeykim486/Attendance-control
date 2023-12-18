@@ -8,7 +8,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[('Classes\\db.py', 'Classes'), ('Classes\\Database\\db.db', 'Classes\\Database')],
+    datas=[('Classes', 'Classes'), ('Classes/Database/db.db', 'Classes/Database')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
